@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Falando um pouco sobre mim!">
+   <meta name="keywords" content="html, tags, vscode, doctype">
+   <meta name="author" content="Vinicius Policarpo Macedo">
+   <link rel="icon" href="img/f1.png" type="image/x-icon">
+   <title>Falando um pouco sobre mim!</title>
+   <style>
+      /* Estilo para o corpo da página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        line-height: 1.6;
+      }
+
+      /* Estilo para o cabeçalho */
+      header {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      /* Estilo para o cabeçalho (h1) */
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      /* Estilo para links no cabeçalho */
+      header a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      /* Estilo para a seção principal */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+      }
+
+      /* Estilo para o menu de navegação */
+      nav {
+        background-color: #007bff;
+        text-align: center;
+      }
+
+      /* Estilo para links no menu de navegação */
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+      }
+
+      /* Estilo para o rodapé */
+      footer {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      /* Estilo responsivo */
+      @media (max-width: 768px) {
+        header {
+          padding: 10px 0;
+        }
+        header h1 {
+          font-size: 24px;
+        }
+        nav {
+          flex-direction: column;
+        }
+        nav a {
+          margin: 5px 0;
+        }
+      }
+   </style>
+</head>
+<body>
+   <header>
+      <h1>Vinicius <em>Policarpo</em> <em>Macedo</em></h1>
+      <p>Idade: 19 anos | Pouso Redondo - SC</p>
+      <a href="#about">Sobre Mim</a>
+      <a href="#education">Educação</a>
+      <a href="#work">Experiência de Trabalho</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contato</a>
+   </header>
+
+   <div class="container" id="about">
+      <h2>Sobre Mim</h2>
+      <p>Faço o curso de graduação em sistemas de informação na Unidavi. É um ótimo curso para quem procura entrar no mercado de trabalho na área da tecnologia.</p>
+   </div>
+
+   <div class="container" id="education">
+      <h2>Educação</h2>
+      <p>Atualmente, estou cursando sistemas de informação na Unidavi.</p>
+   </div>
+
+   <div class="container" id="work">
+      <h2>Experiência de Trabalho</h2>
+      <p>Trabalho na área comercial há 5 anos e atualmente faço parte da empresa BIOCAL Burntech, que atua no ramo de <strong>CALDEIRAS</strong>.</p>
+   </div>
+
+   <!-- Nova seção de Habilidades -->
+   <div class="container" id="skills">
+      <h2>Habilidades</h2>
+      <ul>
+         <li>Negociação com o cliente</li>
+         <li>Pós-venda</li>
+         <li>Resolução de problemas</li>
+         <li>Habilidade em comunicação</li>
+      </ul>
+   </div>
+
+   <!-- Nova seção de Contato -->
+   <div class="container" id="contact">
+      <h2>Contato</h2>
+      <p>Você pode me contatar em:</p>
+      <ul>
+         <li>Email: viniciusmacedo010@outlook.com </li>
+         <li>Telefone: (47) 99279-6322</li>
+         <li>LinkedIn: <a href="https://www.linkedin.com/in/vinicius-policarpo-macedo-a1327121b/" target="_blank">LinkedIn Profile</a></li>
+      </ul>
+   </div>
+
+   <nav>
+      <a href="#topo">Topo</a>
+      <a href="#about">Sobre Mim</a>
+      <a href="#education">Educação</a>
+      <a href="#work">Experiência de Trabalho</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contato</a>
+   </nav>
+
+   <footer>
+      &copy; 2023 Vinicius Policarpo Macedo
+   </footer>
+</body>
+</html>
